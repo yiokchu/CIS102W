@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Created by: Yiokling Chu -->
+<html lang="en">
+    <head>
+		<link rel="stylesheet" href="css/styles.css">
+        <title> Hera </title>
+        <meta charset="utf-8">
+    </head>
+    <body>  
+	
+		<div id="container">
+			
+			<header>
+				<div id="logo">
+					<a href="index.html"> <img src="images/Web-Logo.png" alt="Logo Yiokling Chu" height="70" width="150" align="right"> </a>
+				</div>
+			</header>
+			
+			<nav>
+				<ul>
+					<li> <a href="projects.html"> &lt; BACK </a> &nbsp; &nbsp; </li>
+				</ul>
+			</nav>
+			
+			<main>
+				<h1 style="text-align: center;"> Hera </h1>
+				
+				<p>
+					<i> Team: </i> Yiokling Chu, Manuel Garza, Kyle Bittner.
+				</p>
+				<p>
+                    Hera is a pill reminder app I made in collaboration with a team. HERA keeps people on track of their medication and prescriptions with daily reminders. This app helps people that tend to neglect doctor's orders. Hera assists people to manage to keep their number of medications straight.
+                </p>
+				<p>
+                    Some of Hera's functionality are: 
+				<ul>
+                    <li> HERA allows you to create any type of recurring reminders (daily, weekly, monthly, every X days). </li>
+                    <li> HERA tracks the remaining quantity of each medication and shows a refill alert when running low. </li>
+                    <li> HERA provides missed medication alerts. </li>
+                </p></ul>
+				
+				<p>
+					<h2>APP PROCESS: </h2>
+				</p>
+				
+				<p>
+                    <b><i><u>PROTOTYPE: </u></i></b><br><br>
+                    Hera's first prototype was made using Figma, we tried to add all the functionalities and basic layout closest to want we wanted the final product to look like.
+                </p>
+				
+				<center><video width="500" height="400" autoplay muted>
+                    <source src="Media/Hera-prototype.mp4" type="video/mp4">
+				</video> </center>
+
+                <p>
+                    <b><i><u>DEVELOPMENT: </u></i></b><br><br>
+                    In order to develop Hera, we used React Native, and code with JavaScript.
+                </p><br>
+				
+				
+                <h2>FINAL APP:</h2><br>
+				<p>
+                    Hera is linked to a Firebase database. It has the user input a name for the medication, a recurrence (time and if daily/weekly/monthly), and for how long. Then, the algorithm sets a reminder for the specific medication which holds the recurrence and time limit.<br><br>
+                    There are two main parts for Hera. Hera is the front-end react-native app and Ares is a redux-thunk middleware application that holds functions and database calls.
+                </p>
+				
+                <center> <video width="500" height="600" autoplay muted>
+                        <source src="Media/Hera-video.mp4" type="video/mp4">
+                </video> </center>
+
+                <p>
+                    <a href="https://github.com/kbittner15/Hera.git"> <u>Take a look at the code</u></a>    
+                </p>
+			</main>
+			
+			<footer>
+				<p> 
+					<b> CONTACT: </b> &nbsp; &nbsp;
+					<a href="mailto:yc94652n@pace.edu"> Email </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+					<a href="https://www.linkedin.com/in/yioklingchugarcia"> LinkedIn </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+					<a href="https://github.com/yiokchu?tab=repositories"> Github </a> &nbsp; &nbsp;
+				</p> 
+				&copy; Copyright 2022. All Rights Reserved. <br>
+			</footer>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Created by: Yiokling Chu -->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <title> Phyton </title>
+        <meta charset="utf-8">
+    </head>
+    <body>  
+	
+		<div id="container">
+			
+			<header>
+				<div id="logo">
+					<a href="index.html"> <img src="images/Web-Logo.png" alt="Logo Yiokling Chu" height="70" width="150" align="right"> </a>
+				</div>
+			</header>
+			
+			<nav>
+				<ul>
+					<li> <a href="projects.html"> &lt; BACK </a> &nbsp; &nbsp; </li>
+				</ul>
+			</nav>
+			
+			<main>
+				<h1 style="text-align: center;"> Phython </h1>
+				
+				<p>
+                   <u><b><i>PROGRAM:</i></b> ONLINE PHONE BOOK </u><br><br><br>
+                   This is a network application that manages an online phone directory. In this program, the phone book's data model is saved in a file on the server's computer. The customers are able to look up a phone number or add a name+phone number to the directory. In addition, the server is able to handle multiple clients with all clients having access to the same phone book. This object is created by the server at startup and passed to the client handlers.
+                </p>
+                <p>
+                   The program runs the following way: the client sends a connection request to the server, the server creates a socket and binds it to the address (host, port). The port numbers are the same (5000) therefore they connect, if they were different, it would give an error. <br>
+                   The finding and adding a person’s number or person's name works since the methods send the server the coded name or coded name+phone number. Then, the server class calls the PhoneClientHandler to add or find the person. The handler decodes the data (message), and sends a reply if the number was found or not (using the get/add methods defined in phonebook), or if the name and number were added to the client (coded). Finally, the reply (message) is displayed to the client by the phonebookclient. Then to disconnect, the client closes the connection with the server (If the client does not connect, the server just waits for connection). 
+                </p>
+                <p>
+                    <a href="https://github.com/yiokchu/Computer-Networking"> <u>Take a look at the code</u></a>    
+                </p>
+				
+				<img src="Images/connect.png" alt="Phyton Phonebook connecting" height="250" width="250" class="img3">
+				<img src="Images/add.png" alt="Phyton Phonebook adding contact" height="250" width="250" class="img3">
+				<img src="Images/found.png" alt="Phyton Phonebook found contact" height="250" width="250" class="img3">
+				<img src="Images/welcome.png" alt="Phyton Phonebook welcome" height="250" width="250" class="img3">
+				<img src="Images/addnum.png" alt="Phyton Phonebook adding number" height="250" width="250" class="img3">
+				<img src="Images/not-found.png" alt="Phyton Phonebook contact not found" height="250" width="250" class="img3">
+			</main>
+			
+			<footer>
+				<p> 
+					<b> CONTACT: </b> &nbsp; &nbsp;
+					<a href="mailto:yc94652n@pace.edu"> Email </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+					<a href="https://www.linkedin.com/in/yioklingchugarcia"> LinkedIn </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+					<a href="https://github.com/yiokchu?tab=repositories"> Github </a> &nbsp; &nbsp;
+				</p> 
+				&copy; Copyright 2022. All Rights Reserved. <br>
+			</footer>
+		</div>
+    </body>
+</html>
